@@ -1,0 +1,7 @@
+---
+mount_points:
+  "/":
+    src: "/dev/mapper/cl-root"
+    fstype: "ext4"
+    opts: "errors=remount-ro"
+    state: "present"
