@@ -13,3 +13,4 @@
     opts: "{{ item.value.opts }}"
     state: "{{ item.value.state }}"
   with_dict: "{{ mount_points }}"
+  tags: usb
